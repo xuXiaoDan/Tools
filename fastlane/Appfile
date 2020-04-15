@@ -1,0 +1,6 @@
+# app_identifier("TL.Tool") # The bundle identifier of your app
+# apple_id("836725562@qq.com") # Your Apple email address
+
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile

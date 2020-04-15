@@ -1,0 +1,49 @@
+PODS:
+  - Base (0.1.0):
+    - CTMediator
+    - DoraemonKit
+  - CTMediator (28)
+  - demo (0.1.0):
+    - Base
+  - DoraemonKit (3.0.0):
+    - DoraemonKit/Core (= 3.0.0)
+  - DoraemonKit/Core (3.0.0)
+  - Home (0.1.0)
+  - Mine (0.1.0):
+    - Base
+    - Mine/Classes (= 0.1.0)
+  - Mine/Classes (0.1.0):
+    - Base
+
+DEPENDENCIES:
+  - Base (from `libs/Base`)
+  - demo (from `libs/demo`)
+  - Home (from `libs/Home`)
+  - Mine (from `libs/Mine`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+    - DoraemonKit
+
+EXTERNAL SOURCES:
+  Base:
+    :path: libs/Base
+  demo:
+    :path: libs/demo
+  Home:
+    :path: libs/Home
+  Mine:
+    :path: libs/Mine
+
+SPEC CHECKSUMS:
+  Base: 4abdddf16cdd8186e3786e252eea5fc491558903
+  CTMediator: 6a05e9f1098b2d2fbc9d19cc7f28e94c3a08b5d2
+  demo: dd90c3aec545463a869c60c0e8b17633d8a12700
+  DoraemonKit: 4ad75a74374d836425e947f0f891157cacfdcf46
+  Home: 2ec68dae3ac20ab1982b70f6dc09e644076e662d
+  Mine: 4553ea5af7bc89c7f1e165a7586d7dd8438ce84a
+
+PODFILE CHECKSUM: 140639184ce88e89101bfd50eeb10958845e4fa4
+
+COCOAPODS: 1.9.1
